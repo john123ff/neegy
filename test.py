@@ -4,7 +4,7 @@ def calculate(a, b):
     add all the results together, and print the final total.
     """
    
-    # TODO: 1. Perform Addition
+    # TODO: 1. Perform Addition jb
     # sum_result = ...
    
     # TODO: 2. Perform Subtraction
