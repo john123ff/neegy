@@ -25,14 +25,14 @@ def create_plots():
 
 
     # TODO 5: Bottom-Left Plot (Humidity): Create your own fake data list for humidity (5 numbers). Plot days vs. humidity.
-    axs[0, 1].plot(days, [20, 25, 30, 35, 40], color='orange')  # Adding color
+    axs[0, 1].plot(days, [20, 25, 30, 35, 40,45,50], color='orange')  # Adding color
     axs[0, 1].set_title("Humidity")               # Adding a title
     axs[0, 1].set_xlabel("Days")                         # Adding X label
     axs[0, 1].set_ylabel("Percentage")                     # Adding Y label
 
     # TODO 6: Bottom-Right Plot (Wind Speed): Create your own fake data list for wind_speed (5 numbers).
     # Plot days vs. wind_speed. Combine customizations: use a unique color, a dotted line style (':'). Add headers.
-    axs[1, 0].plot(days, [10, 15, 20, 25, 30], color='green', linestyle=':')  # Adding color and line style
+    axs[1, 0].plot(days, [10, 15, 20, 25, 30, 35, 40], color='green', linestyle=':')  # Adding color and line style
     axs[1, 0].set_title("Wind Speed")               # Adding a title
     axs[1, 0].set_xlabel("Days")                         # Adding X label
     axs[1, 0].set_ylabel("Speed")                     # Adding Y label
@@ -43,5 +43,5 @@ def create_plots():
     # pass # Remove this 'pass' once you start writing your code
 
     # This block runs the code when the script is executed
-    if __name__ == "__main__":
-        create_plots()
+if __name__ == "__main__":
+    create_plots()
